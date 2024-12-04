@@ -1,0 +1,332 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@media (max-width: 600px) {
+   .container{
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      grid-template-rows: minmax(100px, auto);
+      align-items: center;
+   }
+   .total{
+      grid-column: 1/7;
+      text-align: center;
+      background-color: rgb(180, 211, 240);
+      padding: 15px;
+   }
+   .total1{
+      grid-column: 1/7;
+      background-image: url(../img/biblioteca.avif);
+      padding: 50px;
+   }
+   .section{
+      grid-column: 2/6;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(1, 39, 70);
+      gap: 50px;
+   }
+   .detalhes{
+      font-size: 25px;
+   }
+   .foto{
+       width: 10%;
+       height: 10%;
+   }
+   .abril-fatface-regular {
+      font-family: "Abril Fatface", serif;
+      font-weight: 100;
+      font-style: normal;
+      color: rgb(255, 255, 255);
+   }
+   .img{
+      overflow: hidden;
+      width: 10%;
+      height: 20%;
+      margin-left: 80%;
+      align-items: end;
+   } 
+   a{
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       margin-right: 30px;
+   }
+   a:hover{
+       color: #777272;
+   }
+   
+   body{
+      background-color: rgb(1, 39, 70);
+   }
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+   h2{
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       color:  rgb(255, 255, 255);
+   }
+   .star{
+      width: 3%;
+      height: 3%;
+   }
+   h2{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .body2{
+         font-family: Arial, sans-serif;
+         background-color:  rgb(1, 39, 70);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+   }
+   .login{
+      grid-column: 3/6;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 60%;
+      height: 80%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(173, 194, 211);
+      border-radius: 5%;
+      margin: 50px;
+   
+   }
+   .button{
+      color: rgb(4, 5, 5);
+      background-color: #2fb9f0;
+      border: 4px;
+      width: 40%;
+      height: 40%;
+      padding: 3px;
+      font-size: 17px;
+      border-radius: 5px;
+      margin-right: 6%;
+   }
+   .login input {
+      width: 80%;
+      padding: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      box-sizing: border-box;
+   }
+   .link {
+      padding: 5%;
+      color: #000000;
+   }
+   .logo{
+      width: 40%;
+   }
+   .separacao {
+      width: 80%; 
+      margin: 20px auto; 
+      padding: 20px;
+      background-color: rgb(173, 194, 211);
+      border: 0px;
+      border-radius: 6px;
+   }
+   .cadastro{
+      grid-column: 3/6;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 60%;
+      height: 600%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(173, 194, 211);
+      border-radius: 8%;
+      margin-left: 25%;
+      margin-top: 10%;
+   }
+   .cadastro input {
+      width: 90%;
+      padding: 7px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      box-sizing: border-box;
+      align-items: center;
+      margin: 6px;
+   }
+   .lupa{
+      width: 30%;
+      
+   }
+   }
+
+@media (min-width: 1025px) {
+   .container{
+      display: grid;
+      grid-template-columns: repeat(6,1fr);
+      grid-template-rows: minmax(100px, auto);
+      align-items: center;
+   }
+   .total{
+      grid-column: 1/7;
+      text-align: center;
+      background-color: rgb(180, 211, 240);
+      padding: 15px;
+   }
+   .total1{
+      grid-column: 1/7;
+      background-image: url(../img/biblioteca.avif);
+      padding: 50px;
+   }
+   .section{
+      grid-column: 2/6;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(1, 39, 70);
+      gap: 50px;
+   }
+   .detalhes{
+      font-size: 25px;
+   }
+   .foto{
+       width: 10%;
+       height: 10%;
+   }
+   .abril-fatface-regular {
+      font-family: "Abril Fatface", serif;
+      font-weight: 100;
+      font-style: normal;
+      color: rgb(255, 255, 255);
+   }
+   .img{
+      overflow: hidden;
+      width: 10%;
+      height: 20%;
+      margin-left: 80%;
+      align-items: end;
+   } 
+   a{
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       margin-right: 30px;
+   }
+   a:hover{
+       color: #777272;
+   }
+   
+   body{
+      background-color: rgb(1, 39, 70);
+   }
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+   h2{
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       color:  rgb(255, 255, 255);
+   }
+   .star{
+      width: 3%;
+      height: 3%;
+   }
+   .button1{
+      width: 3%;
+      height: 3%;
+      color: rgb(1, 39, 70);
+   }
+   h2{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .body2{
+         font-family: Arial, sans-serif;
+         background-color:  rgb(1, 39, 70);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         margin: 0;
+   }
+   .login{
+      grid-column: 3/6;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 50%;
+      height: 80%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(173, 194, 211);
+      border-radius: 5%;
+      margin: 50px;
+   
+   }
+   .button{
+      color: rgb(4, 5, 5);
+      background-color: #2fb9f0;
+      border: 4px;
+      width: 40%;
+      height: 40%;
+      padding: 4px;
+      font-size: 17px;
+      border-radius: 5px;
+      margin-right: 6%;
+   }
+   .login input {
+      width: 80%;
+      padding: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      box-sizing: border-box;
+   }
+   .link {
+      padding: 5%;
+      color: #000000;
+   }
+   .logo{
+      width: 40%;
+   }
+   .separacao {
+      width: 80%; 
+      margin: 20px auto; 
+      padding: 20px;
+      background-color: rgb(173, 194, 211);
+      border: 0px;
+      border-radius: 6px;
+   }
+   .cadastro{
+      grid-column: 3/6;
+      display: flex;
+      flex-flow: column nowrap;
+      width: 50%;
+      height: 5%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(173, 194, 211);
+      border-radius: 8%;
+      margin-left: 25%;
+      margin-top: 10%;
+   }
+   .cadastro input {
+      width: 90%;
+      padding: 7px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      box-sizing: border-box;
+      align-items: center;
+      margin: 6px;
+   }
+   .lupa{
+      width: 30%;
+      
+   }
+   }
