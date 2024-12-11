@@ -1,0 +1,14 @@
+create database biblioket;
+use biblioket;
+create table login(
+	email VARCHAR(100) NOT NULL PRIMARY KEY,
+    senha VARCHAR(12) NOT NULL
+    );
+
+
+create table cadastro(
+nome VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL PRIMARY KEY,
+senha VARCHAR(100) NOT NULL,
+confirmar_senha VARCHAR(100) NOT NULL
+);
