@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
    if ($stmt->execute()) {
        $_SESSION['message'] = "Conta criada com sucesso!";
-       header("Location: index.php"); // Redireciona para a página inicial
+       header("Location: index.php"); 
        exit(0);
    } else {
        echo "Erro ao inserir os dados: " . $stmt->error;
