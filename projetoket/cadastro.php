@@ -3,12 +3,10 @@ session_start(); // Inicia a sessão
 require_once 'conexao.php'; // Inclui a conexão com o banco
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-   // Recebe os dados do formulário
+   
    $nome = $_POST["nome"];
    $email = $_POST["email"];
    $senha = $_POST["senha"];
-
-   // Preparar a query para evitar injeção SQL
    $stmt = $conn->prepare("INSERT INTO cadastro (nome, email, senha) VALUES (?, ?, ?)");
    $stmt->bind_param("sss", $nome, $email, $senha); 
 
@@ -20,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
        echo "Erro ao inserir os dados: " . $stmt->error;
    }
 
-   // Fecha o statement e a conexão
+   
    $stmt->close();
    $conn->close();
 }
